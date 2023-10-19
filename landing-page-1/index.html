@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>starbucks Landing page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"> <img src="./assets/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">contact </a></li>
+        </ul>
+      </header>
+      <div class="text-content">
+        <div class="text-box">
+          <h2>
+            It's not just a coffee
+            <br />It's <span>starbucks </span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+            repudiandae maiores atque eum exercitationem dolores, quo tempora
+            veritatis nesciunt distinctio doloribus cum earum nisi dolorum!
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="image-box">
+          <img src="./assets/img1.png" alt="image" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./assets/thumb1.png"
+            onclick="imageSlide('img1.png'); changeColor('#017143')"
+            class="image"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/thumb2.png"
+            class="image"
+            onclick="imageSlide('img2.png');changeColor('#eb7495') "
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/thumb3.png"
+            class="image"
+            onclick="imageSlide('img3.png') ;changeColor('#d752b1') "
+          />
+        </li>
+      </ul>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
